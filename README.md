@@ -47,7 +47,7 @@ Model Architecture
 Pre-Processing Input
 ---
 
-The images are converted to gray scale i.e single Y channel using Luma Coding and then normalized. Based on findings mentioned in this paper, using color channel did not improve the accuracy by much.
+The images are converted to gray scale i.e single Y channel using Luma Coding and then normalized. Based on findings mentioned in [this paper](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) by Pierre Sermanet and Yann LeCun, using color channel did not improve the accuracy by much.
 
 Normalizing the images makes it faster to train the network by ensures that each input parameter (pixel, in this case) has a similar data distribution and is not sensitive to outliers. This makes convergence faster while training the network
 

@@ -85,3 +85,15 @@ Test on New Images
 Images were captured from the streets of Berlin using Google Street View was used for testing and getting more insights into the working of the model.
 
 ![Alt text](resources/test-images.png) 
+
+Softmax Probabilities on Test Images 
+
+![Alt text](resources/softmax-prob.png)
+![Alt text](resources/softmax-prob-1.png)
+![Alt text](resources/softmax-prob-2.png)
+![Alt text](resources/softmax-prob-3.png)
+![Alt text](resources/softmax-prob-4.png)
+![Alt text](resources/softmax-prob-5.png)
+![Alt text](resources/softmax-prob-6.png)
+![Alt text](resources/softmax-prob-7.png)
+

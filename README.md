@@ -9,7 +9,6 @@ The project uses deep nueral network to classify traffic signs. [German traffic 
 
 Dependencies
 ---
-This lab requires:
 
 * [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
 
@@ -69,15 +68,15 @@ Here are my final training parameters:
 * EPOCHS = 20
 * BATCH_SIZE = 128
 * SIGMA = 0.1
-* CONV 1 DROP OUT = 0.9
-* CONV 2 DROP OUT = 0.8
-* FC 1 DROP OUT = 0.7
-* FC 2 DROP OUT = 0.6
+* CONV 1 DROP OUT (keep probabability) = 0.9
+* CONV 2 DROP OUT (keep probabability)= 0.8
+* FC 1 DROP OUT (keep probabability) = 0.7
+* FC 2 DROP OUT (keep probabability) = 0.6
 
 Results after training the model:
 
-* Validation Accuracy = 
-* Test Accuracy = 
+* Validation Accuracy = **96.6**
+* Test Accuracy = **94.1**
 
 Augment Data
 ---

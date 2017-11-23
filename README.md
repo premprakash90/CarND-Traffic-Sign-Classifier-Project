@@ -112,3 +112,10 @@ Softmax Probabilities on Test Images
 ![Alt text](resources/softmax-prob-6.png)
 ![Alt text](resources/softmax-prob-7.png)
 
+References
+---
+* Original data set: [German Traffic Sign Data Set](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
+* LeNet-5: [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
+* Blog: [Traffic Sign Classification](https://navoshta.com/traffic-signs-classification/)
+* Blog: [Traffic Sign Classification](https://chatbotslife.com/german-sign-classification-using-deep-learning-neural-networks-98-8-solution-d05656bf51ad)
+

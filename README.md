@@ -1,4 +1,4 @@
-## Project: Build a Traffic Sign Recognition Classifier for German Traffic Signs
+## Build a Traffic Sign Recognition Classifier for German Traffic Signs
 
 Overview
 -----
@@ -32,6 +32,8 @@ jupyter notebook Traffic_Sign_Classifier.ipynb
 Model Architecture
 ---
 
+![Alt text](resources/lenet.png "Model architecture")
+
 | Layer         		|     Description	        					| Input |Output| 
 |:---------------------:|:---------------------------------------------:| :----:|:-----:|
 | Convolution     	| 1x1 stride, valid padding, RELU activation 	|32x32x1|28x28x6|
@@ -43,3 +45,14 @@ Model Architecture
 | Fully Connected | connect every neuron from layer above		|120|84|
 | Fully Connected | number of traffic signs in data set	|84|43|
 
+Pre-Processing Input 
+
+The images are converted to gray scale i.e single Y channel using Luma Coding and then normalized. Based on findings mentioned in this paper, using color channel did not improve the accuracy by much.
+
+Normalizing the images makes it faster to train the network by ensures that each input parameter (pixel, in this case) has a similar data distribution and is not sensitive to outliers. This makes convergence faster while training the network
+
+Before pre-processing 
+![Alt text](resources/sample.png "Sample Input")
+
+After pre-processing 
+![Alt text](resources/sample-y-channel.png "Sample Input After prepossing")

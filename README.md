@@ -85,7 +85,7 @@ Visualization of the traffic sign dataset
 
 ![Alt text](resources/dataset-distribution.png "Sample Input")
 
-The distribution of images in the training set across labels is not balanced. To balance the distribution, fake images were generated from the original image by applying the following transformation: scaling, traslation and rotation.
+The distribution of images in the training set across labels is not balanced. To balance the distribution, fake images were generated from the original image by applying the following transformation: scaling, translation and rotation.
 
 ![Alt text](resources/transformations.png "Sample Input")
 

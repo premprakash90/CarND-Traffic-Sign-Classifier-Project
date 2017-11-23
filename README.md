@@ -45,14 +45,43 @@ Model Architecture
 | Fully Connected | connect every neuron from layer above		|120|84|
 | Fully Connected | number of traffic signs in data set	|84|43|
 
-Pre-Processing Input 
+Pre-Processing Input
+---
 
 The images are converted to gray scale i.e single Y channel using Luma Coding and then normalized. Based on findings mentioned in this paper, using color channel did not improve the accuracy by much.
 
 Normalizing the images makes it faster to train the network by ensures that each input parameter (pixel, in this case) has a similar data distribution and is not sensitive to outliers. This makes convergence faster while training the network
 
-Before pre-processing 
+#### Before pre-processing 
 ![Alt text](resources/sample.png "Sample Input")
 
-After pre-processing 
+#### After pre-processing 
 ![Alt text](resources/sample-y-channel.png "Sample Input After prepossing")
+
+
+Model Training
+--- 
+
+The model was trained using the following parameters 
+
+Here are my final training parameters:
+
+EPOCHS = 20
+BATCH_SIZE = 128
+SIGMA = 0.1
+CONV 1 DROP OUT = 0.9
+CONV 2 DROP OUT = 0.8
+FC 1 DROP OUT = 0.7
+FC 2 DROP OUT = 0.6
+
+Results after training the model:
+
+Validation Accuracy = 
+Test Accuracy = 
+
+Test on New Images 
+--- 
+
+Images were captured from the streets of Berlin using Google Street View was used for testing and getting more insights into the working of the model.
+
+![Alt text](resources/test-image.png) 

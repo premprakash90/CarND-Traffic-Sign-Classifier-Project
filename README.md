@@ -75,8 +75,8 @@ Here are my final training parameters:
 
 Results after training the model:
 
-* Validation Accuracy = **96.6**
-* Test Accuracy = **94.1**
+* Validation Accuracy = **96.6%**
+* Test Accuracy = **94.1%**
 
 Augment Data
 ---

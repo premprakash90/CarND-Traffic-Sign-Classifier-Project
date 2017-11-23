@@ -65,7 +65,7 @@ The model was trained using the following parameters
 
 Here are my final training parameters:
 
-* EPOCHS = 20
+* EPOCHS = 15
 * BATCH_SIZE = 128
 * SIGMA = 0.1
 * CONV 1 DROP OUT (keep probabability) = 0.9

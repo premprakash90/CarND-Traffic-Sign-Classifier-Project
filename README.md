@@ -36,7 +36,7 @@ Model Architecture
 | Layer         		|     Description	        					| Input |Output| 
 |:---------------------:|:---------------------------------------------:| :----:|:-----:|
 | Convolution     	| 1x1 stride, valid padding, RELU activation 	|32x32x1|28x28x6|
-| Max pooling			| 2x2 stride, 2x2 window						|28x28x48|14x14x6|
+| Max pooling			| 2x2 stride, 2x2 window						|28x28x6|14x14x6|
 | Convolution  	    | 1x1 stride, valid padding, RELU activation 	|14x14x6|10x10x6|
 | Max pooling			| 2x2 stride, 2x2 window	   					|10x10x16|5x5x16|
 | Flatten				| 3 dimensions -> 1 dimension					|5x5x16| 400|

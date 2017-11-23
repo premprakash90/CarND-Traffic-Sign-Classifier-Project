@@ -92,7 +92,7 @@ The distribution of images in the training set across labels is not balanced. To
 
 #### Generate Fake Data
 
-3000 images are generated for each label to by applying transformation from images choosen at random from the training set to balance the dataset makes the total number images in the training set to be 43*3000 = 129000. This prevents overfitting since the model sees the exact same number of input images for each label in the training set. 
+3000 images are generated for each label to by applying transformation from images choosen at random from the training set to balance the dataset making the total number images in the training set to 43*3000 = 129000. This prevents overfitting since the model sees the exact same number of input images for each label in the training set. 
 
 
 Test on New Images 

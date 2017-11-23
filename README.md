@@ -9,7 +9,6 @@ The project uses deep nueral network to classify traffic signs. [German traffic 
 
 Dependencies
 ---
-This lab requires:
 
 * [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
 
@@ -48,9 +47,9 @@ Model Architecture
 Pre-Processing Input
 ---
 
-The images are converted to gray scale i.e single Y channel using Luma Coding and then normalized. Based on findings mentioned in this paper, using color channel did not improve the accuracy by much.
+The images are converted to gray scale i.e single Y channel using Luma Coding and then normalized. Based on findings mentioned in [this paper](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) by Pierre Sermanet and Yann LeCun, using color channel did not improve the accuracy by much.
 
-Normalizing the images makes it faster to train the network by ensures that each input parameter (pixel, in this case) has a similar data distribution and is not sensitive to outliers. This makes convergence faster while training the network
+Normalizing the images makes it faster to train the network  by ensuring that each input parameter (pixel, in this case) has similar data distribution and is not sensitive to outliers. This makes convergence faster while training the network
 
 #### Before pre-processing 
 ![Alt text](resources/sample.png "Sample Input")
@@ -66,18 +65,18 @@ The model was trained using the following parameters
 
 Here are my final training parameters:
 
-* EPOCHS = 20
+* EPOCHS = 15
 * BATCH_SIZE = 128
 * SIGMA = 0.1
-* CONV 1 DROP OUT = 0.9
-* CONV 2 DROP OUT = 0.8
-* FC 1 DROP OUT = 0.7
-* FC 2 DROP OUT = 0.6
+* CONV 1 DROP OUT (keep probabability) = 0.9
+* CONV 2 DROP OUT (keep probabability)= 0.8
+* FC 1 DROP OUT (keep probabability) = 0.7
+* FC 2 DROP OUT (keep probabability) = 0.6
 
 Results after training the model:
 
-* Validation Accuracy = 
-* Test Accuracy = 
+* Validation Accuracy = **96.6%**
+* Test Accuracy = **94.1%**
 
 Augment Data
 ---

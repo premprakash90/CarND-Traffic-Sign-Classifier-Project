@@ -79,6 +79,22 @@ Results after training the model:
 * Validation Accuracy = 
 * Test Accuracy = 
 
+Augment Data
+---
+
+Visualization of the traffic sign dataset 
+
+![Alt text](resources/dataset-distribution.png "Sample Input")
+
+The distribution of images in the training set across labels is not balanced. To balance the distribution, fake images are generated from the original image by applying the following transformation: scaling, traslation and rotation.
+
+![Alt text](resources/transformations.png "Sample Input")
+
+#### Generate Fake Data
+
+3000 images are generated for each label to by applying transformation from images choosen at random from the training set to balance the dataset makes the total number images in the training set to be 43*3000 = 129000. This prevents overfitting since the model sees the exact same number of input images for each label in the training set. 
+
+
 Test on New Images 
 --- 
 

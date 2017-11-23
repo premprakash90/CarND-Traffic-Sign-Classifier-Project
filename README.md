@@ -66,22 +66,22 @@ The model was trained using the following parameters
 
 Here are my final training parameters:
 
-EPOCHS = 20
-BATCH_SIZE = 128
-SIGMA = 0.1
-CONV 1 DROP OUT = 0.9
-CONV 2 DROP OUT = 0.8
-FC 1 DROP OUT = 0.7
-FC 2 DROP OUT = 0.6
+* EPOCHS = 20
+* BATCH_SIZE = 128
+* SIGMA = 0.1
+* CONV 1 DROP OUT = 0.9
+* CONV 2 DROP OUT = 0.8
+* FC 1 DROP OUT = 0.7
+* FC 2 DROP OUT = 0.6
 
 Results after training the model:
 
-Validation Accuracy = 
-Test Accuracy = 
+* Validation Accuracy = 
+* Test Accuracy = 
 
 Test on New Images 
 --- 
 
 Images were captured from the streets of Berlin using Google Street View was used for testing and getting more insights into the working of the model.
 
-![Alt text](resources/test-image.png) 
+![Alt text](resources/test-images.png) 
